@@ -15,7 +15,7 @@
 
   .feat {
     text-align: center;
-    border-bottom: 1px dotted $border-color;
+    border-bottom: 1px dotted $control-color;
     margin: 0 auto $spacing-l;
     a.popup {
       display: inline-block;
@@ -38,7 +38,7 @@
     display: inline-block;
     position: relative;
     top: 1.1em;
-    background: $bg-color;
+    //background: $accent-color;
     font-family: $variant-family;
     font-size: 85%;
     text-align: center;
@@ -57,11 +57,12 @@
     font-size: 180%;
     line-height: 135%;
     font-family: $font-family;
+    color: $primary-color;
     text-align: center;
     margin: 0 0 $spacing-m;
   }
 
-  ul, 
+  ul,
   ol {
     margin: $spacing-m 0;
     li {
@@ -105,7 +106,7 @@
 #next {
   position: fixed;
   text-decoration: none;
-  background: $bg-color;
+  background: $accent-color;
   border: 1px solid $border-color;
   padding: $spacing-xs;
   line-height: 1;
@@ -118,21 +119,21 @@
   }
 }
 
-#prev { 
-  left: 40px; 
+#prev {
+  left: 40px;
   @media (max-width: 942px) {
-    float: left; 
+    float: left;
   }
 }
 
-#next { 
-  right: 40px; 
+#next {
+  right: 40px;
   @media (max-width: 942px) {
-    float: right; 
+    float: right;
   }
 }
 
-#prev:active, 
+#prev:active,
 #next:active {
   border-color: $main-color;
 }
@@ -140,7 +141,7 @@
 .nav-title {
   display: none;
   @media (max-width: 942px) {
-    display: inline; 
+    display: inline;
   }
 }
 

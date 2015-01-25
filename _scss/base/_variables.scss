@@ -1,20 +1,24 @@
 // Colors
 
-$main-color:        mediumslateblue;  // change this color for further customization 
+$primary-color:     #00BCD4;
+$accent-color:      #EFFB41;
+$control-color:     #F9F9F9;
+
+$main-color:        $primary-color;  // change this color for further customization
                                       // I like http://colours.neilorangepeel.com/! Making colors semantic too ;)
 
-$bg-color:          white; // background-color
+$bg-color:          $control-color; // background-color
 
-$text-color:        #333; 
-$link-color:        $main-color; 
+$text-color:        #333;
+$link-color:        $main-color;
 $border-color:      #e0e1e6;
 $smoke-color:       #fafafa;
 
 
-// Typography 
+// Typography
 
-$font-family:       'Open Sans', sans-serif;
-$variant-family:    'Lora', Georgia, serif;
+$font-family:       'Noto Sans Japanese', sans-serif;
+$variant-family:    'Noto Sans Japanese', Georgia, serif;
 $font-size-l:       1.25em; // font-size on desktop type screens
 $font-size-m:       $font-size-l * 0.9; // font-size under 942px wide screens
 $font-size-s:       $font-size-l * 0.7; // font-size under 642px wide screens
