@@ -1,18 +1,18 @@
-# hikari
+# hikari ( forked and apply a Material Design )
 
-Hikari is an open-source [Jekyll](http://jekyllrb.com) theme perfect for dev-savvy bloggers who wants to get started with Jekyll in a very minimal way. 
+Hikari is an open-source [Jekyll](http://jekyllrb.com) theme perfect for dev-savvy bloggers who wants to get started with Jekyll in a very minimal way.
 
 - SCSS!
 - Responsive
 - Lightweight (no JS library has been abused here)
 
-![preview](https://dl.dropboxusercontent.com/u/7539881/Hikari/hikari-screenshot.png)
+![preview](https://raw.githubusercontent.com/ogaclejapan/hikari-for-Jekyll/master/art/screenshot1.jpeg)
 
-![preview](https://dl.dropboxusercontent.com/u/7539881/Hikari/hikari-screenshot-2.png)
+![preview](https://raw.githubusercontent.com/ogaclejapan/hikari-for-Jekyll/master/art/screenshot2.jpeg)
 
-![preview](https://dl.dropboxusercontent.com/u/7539881/Hikari/hikari-screenshot-3.png)
+![preview](https://raw.githubusercontent.com/ogaclejapan/hikari-for-Jekyll/master/art/screenshot3.jpeg)
 
-[View demo](http://m3xm.github.io/hikari-for-Jekyll)
+[View demo](http://ogaclejapan.github.io/hikari-for-Jekyll)
 
 
 ### How to install

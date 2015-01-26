@@ -48,3 +48,6 @@ redcarpet:
 
 # AddThis
 addthis_pubid: ra-52b998c30d780542
+
+# Exclude Files
+exclude: ["README.md", ".gitignore", "Gemfile", "Gemfile.lock", "art"]
