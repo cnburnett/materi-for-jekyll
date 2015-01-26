@@ -4,18 +4,18 @@
   margin: $spacing-s auto;
   font-family: $variant-family;
   background: white;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
   z-index: 1;
 
   .single-content {
-    padding: 0 $spacing-m;
-    @media (max-width: 642px) {
-      padding-bottom: $spacing-l;
-    }
+    padding: 0 $spacing-m $spacing-l;
   }
 
   .feat {
     text-align: center;
-    border-bottom: 1px dotted $control-color;
+    border-bottom: 1px solid $border-color;
     margin: 0 auto $spacing-l;
     a.popup {
       display: inline-block;
@@ -38,12 +38,13 @@
     display: inline-block;
     position: relative;
     top: 1.1em;
-    //background: $accent-color;
+    background: white;
     font-family: $variant-family;
     font-size: 85%;
     text-align: center;
     font-weight: normal;
     font-style: italic;
+    color: $text-hint;
     padding: 0 $spacing-s;
     text-transform: none;
     letter-spacing: 1px;
@@ -57,35 +58,34 @@
     font-size: 180%;
     line-height: 135%;
     font-family: $font-family;
-    color: $primary-color;
+    color: $primary-dark;
     text-align: center;
     margin: 0 0 $spacing-m;
   }
 
   ul,
   ol {
-    margin: $spacing-m 0;
+    margin: 0 0 0 2em;
+    padding: 0;
+
     li {
+      color: $text-secondary;
       margin-bottom: $spacing-xs;
     }
   }
 
   blockquote {
-    font-size: 150%;
+    font-size: 120%;
     font-family: $font-family;
     font-weight: lighter;
-    color: lighten($text-color, 40%);
-    border-left: 4px solid $main-color;
+    color: $text-secondary;
+    border-left: 4px solid $accent;
     padding-left: $spacing-s;
     margin-top: $spacing-m;
     margin-bottom: $spacing-m;
-    margin-left: -$spacing-l;
+    margin-left: 0;
     margin-right: 0;
     line-height: 165%;
-
-    @media (max-width: 942px) {
-      margin-left: 0;
-    }
     p {
       padding-left: 0!important;
       padding-right: 0!important;
@@ -106,13 +106,13 @@
 #next {
   position: fixed;
   text-decoration: none;
-  background: $accent-color;
+  background: $accent;
   border: 1px solid $border-color;
   padding: $spacing-xs;
   line-height: 1;
   border-radius: 100px;
   bottom: $spacing-m;
-  color: #333;
+  color: $text-secondary;
   @media (max-width: 942px) {
     position: static;
     padding: .8em $spacing-s .7em;
@@ -135,7 +135,7 @@
 
 #prev:active,
 #next:active {
-  border-color: $main-color;
+  border-color: $border-color;
 }
 
 .nav-title {

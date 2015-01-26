@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  background: $primary-color;
+  background: $primary;
 }
 
 .h-wrap {
@@ -15,9 +15,6 @@ header {
     a {
       color: white;
       text-decoration: none;
-      // &:hover {
-      //   color: $link-color;
-      // }
     }
   } // end h1.title
 
@@ -69,7 +66,7 @@ header {
     position: relative;
     width: 25px;
     height: 2px;
-    background: $text-color;
+    background: $text-primary;
     border-radius: 20px;
 
     &::before,
@@ -80,7 +77,7 @@ header {
       left: 0;
       width: 25px;
       height: 2px;
-      background: $text-color;
+      background: $text-primary;
       border-radius: 20px;
 
       transition: all .3s ease;
@@ -165,7 +162,7 @@ header {
     }
     p {
       font-size: 90%;
-      color: lighten($text-color, 30%);
+      color: $text-secondary;
       margin-bottom: 0;
     }
   }
@@ -177,7 +174,7 @@ header {
       text-align: left;
       margin-top: $spacing-m;
       margin-bottom: $spacing-s;
-      color: lighten($text-color, 50%);
+      color: $text-hint;
       padding-bottom: $spacing-xs;
       border-bottom: 1px solid $border-color;
     }

@@ -1,17 +1,18 @@
 // Colors
 
-$primary-color:     #00BCD4;
-$accent-color:      #EFFB41;
-$control-color:     #F9F9F9;
+$primary:           #00bcd4; //Cyan 500
+$primary-dark:      #0097a7; //Cyan 700
+$primary-light:     #b2ebf2; //Cyan 100
+$accent:            #eeff41; //Lime A200
+$accent-dark:       #c6ff00; //Lime A400
+$accent-light:      #f4ff81; //Lime A100
 
-$main-color:        $primary-color;  // change this color for further customization
-                                      // I like http://colours.neilorangepeel.com/! Making colors semantic too ;)
+$text-primary:      rgba(black, 0.87);
+$text-secondary:    rgba(black, 0.54);
+$text-hint:         rgba(black, 0.26);
 
-$bg-color:          $control-color; // background-color
-
-$text-color:        #333;
-$link-color:        $main-color;
-$border-color:      #e0e1e6;
+$bg-color:          #f9f9f9;
+$border-color:      rgba(black, 0.12);
 $smoke-color:       #fafafa;
 
 
