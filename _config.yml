@@ -1,14 +1,14 @@
 # Title of your blog; shows in the header
-name: "hikari"
+name: "hikari with the material design"
 
 # Description of your content (will only be used on Google Search)
 description: "Fluid, responsive blog theme for Jekyll"
 
 # Your name. Will show in your footer + sidebar
-author: "John Doge"
+author: "ogaclejapan"
 lang: ja
 
-url: "http://m3xm.github.io"
+url: "http://ogaclejapan.github.io"
 baseurl: "/hikari-for-Jekyll"
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
@@ -16,16 +16,16 @@ author-bio: "I'm a dog. I develop things. This is my blog so why don't you close
 
 # Social Accounts (mine, as placeholders)
 
-twitter: mx3m
-github: m3xm
-dribbble: m3xm
-instagram: m3xm
-googleplus:
+twitter: ogaclejapan
+github: ogaclejapan
+#dribbble:
+#instagram:
+googleplus: 115224314007024961072
 
 # Google Analytics (you may want to changes these with yours or even delete :)
 
-ga_domain: m3xm.github.io
-ga_tracking_id: UA-47727049-1
+ga_domain: ogaclejapan.github.io
+ga_tracking_id: UA-37241684-2
 
 # Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
 
@@ -44,7 +44,7 @@ sass:
 
 # Redcarpet
 redcarpet:
-  extensions: ["strikethrough", "tables", "fenced_code_blocks"]
+  extensions: ["strikethrough", "tables", "fenced_code_blocks", "autolink"]
 
 # AddThis
 # TODO
