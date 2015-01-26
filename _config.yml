@@ -47,4 +47,4 @@ redcarpet:
   extensions: ["strikethrough", "tables", "fenced_code_blocks", "autolink"]
 
 # AddThis
-# TODO
+addthis_pubid: ra-52b998c30d780542

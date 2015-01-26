@@ -87,5 +87,10 @@
       </script>
     {% endif %}
 
+    {% comment %} AddThis {% endcomment %}
+    {% if site.addthis_pubid %}
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_pubid }}" async="async"></script>
+    {% endif %}
+
   </body>
 </html>
