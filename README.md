@@ -6,11 +6,11 @@ Hikari is an open-source [Jekyll](http://jekyllrb.com) theme perfect for dev-sav
 - Responsive
 - Lightweight (no JS library has been abused here)
 
-![preview](https://raw.githubusercontent.com/ogaclejapan/hikari-for-Jekyll/master/art/screenshot1.jpeg)
+![preview](https://raw.githubusercontent.com/ogaclejapan/hikari-for-Jekyll/master/art/screenshot1.jpg)
 
-![preview](https://raw.githubusercontent.com/ogaclejapan/hikari-for-Jekyll/master/art/screenshot2.jpeg)
+![preview](https://raw.githubusercontent.com/ogaclejapan/hikari-for-Jekyll/master/art/screenshot2.jpg)
 
-![preview](https://raw.githubusercontent.com/ogaclejapan/hikari-for-Jekyll/master/art/screenshot3.jpeg)
+![preview](https://raw.githubusercontent.com/ogaclejapan/hikari-for-Jekyll/master/art/screenshot3.jpg)
 
 [View demo](http://ogaclejapan.github.io/hikari-for-Jekyll)
 
