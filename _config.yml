@@ -18,8 +18,8 @@ author-bio: "I'm a dog. I develop things. This is my blog so why don't you close
 
 twitter: ogaclejapan
 github: ogaclejapan
-#dribbble:
-#instagram:
+dribbble:
+instagram:
 googleplus: 115224314007024961072
 
 # Google Analytics (you may want to changes these with yours or even delete :)
@@ -45,9 +45,6 @@ sass:
 # Redcarpet
 redcarpet:
   extensions: ["strikethrough", "tables", "fenced_code_blocks", "autolink"]
-
-# AddThis
-addthis_pubid: ra-52b998c30d780542
 
 # Exclude Files
 exclude: ["README.md", ".gitignore", "Gemfile", "Gemfile.lock", "art"]

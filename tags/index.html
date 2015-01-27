@@ -1,0 +1,22 @@
+---
+layout: default
+title: Tags
+---
+
+<div id="home">
+  {% if site.tags %}
+  <ul class="posts">
+    {% for tag in site.tags %}
+    <li>
+      <a href="{{ site.baseurl }}/tags/{{ tag[0] }}/">
+        <div class="p-wrap">
+          <p>{{ tag[0] }} ({{ tag[1] | size }})</p>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>There are no tags.</p>
+  {% endif %}
+</div>
