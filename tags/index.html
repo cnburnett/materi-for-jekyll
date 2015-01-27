@@ -8,11 +8,15 @@ title: Tags
   <ul class="posts">
     {% for tag in site.tags %}
     <li>
-      <a href="{{ site.baseurl }}/tags/{{ tag[0] }}/">
+      {% for data in site.data.tags %}
+      {% if data.id == tag[0] %}
+      <a href="{{ site.baseurl }}/tags/{{ data.id }}/">
         <div class="p-wrap">
-          <p>{{ tag[0] }} ({{ tag[1] | size }})</p>
+          <p>{{ data.name }} ({{ tag[1] | size }})</p>
         </div>
       </a>
+      {% endif %}
+      {% endfor %}
     </li>
     {% endfor %}
   </ul>
