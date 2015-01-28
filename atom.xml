@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>hikari with the material design</title>
-  <id>http://ogaclejapan.github.io</id>
-  <link href="http://ogaclejapan.github.io" />
-  <link href="http://ogaclejapan.github.io/atom.xml" rel="self" />
-  <updated>2015-01-26T23:17:53+09:00</updated>
+  <id>http://ogaclejapan.github.io/hikari-for-Jekyll</id>
+  <link href="http://ogaclejapan.github.io/hikari-for-Jekyll" />
+  <link href="http://ogaclejapan.github.io/hikari-for-Jekyll/atom.xml" rel="self" />
+  <updated>2015-01-29T02:11:56+09:00</updated>
   <rights>Copyright 2015, ogaclejapan</rights>
   <author>
     <name>ogaclejapan</name>
@@ -12,14 +12,14 @@
   
     <entry>
       <title>Welcome to Hikari for Jekyll!</title>
-      <link href="http://ogaclejapan.github.io/2014/01/29/welcome-to-jekyll/" />
-      <summary type="html">&lt;p&gt;Welcome to &lt;em&gt;Hikari&lt;/em&gt;, a responsive, fluid and minimalist Jekyll theme for developers. As a web designer keen on learning how to develop my own stuff, reading developers&amp;#39; blog has always been the way to learn from the best. So I thought it was time to give back! &lt;/p&gt;
+      <link href="http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/29/welcome-to-jekyll/" />
+      <summary type="html">&lt;p&gt;Welcome to &lt;em&gt;Hikari&lt;/em&gt;, a responsive, fluid and minimalist Jekyll theme for developers. As a web designer keen on learning how to develop my own stuff, reading developers&amp;#39; blog has always been the way to learn from the best. So I thought it was time to give back!&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Hikari&lt;/em&gt; is an open-source Jekyll theme packed with everything you need to get started and share your best learnings with the community.&lt;/p&gt;
 
 &lt;p&gt;Of course, you don&amp;#39;t need to be a developer to use &lt;em&gt;Hikari&lt;/em&gt;! Although, I wouldn&amp;#39;t recommend it to anyone who&amp;#39;s not willing to dive more than 5 minutes into my (sometimes) messy front-end code!  &lt;/p&gt;
 
-&lt;p&gt;Jekyll and pygments can easily help you to display your best snippets. I slightly styled them, and this is how it looks: &lt;/p&gt;
+&lt;p&gt;Jekyll and pygments can easily help you to display your best snippets. I slightly styled them, and this is how it looks:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;header&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hello World!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
@@ -37,16 +37,16 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;header&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;    
+  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;header&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Note that so far, only HTML, CSS and Javascript are styled out of the box. But everything&amp;#39;s ready for you to start styling your favorites languages: Python, Ruby, PHP and &lt;a href=&quot;http://rubygems.org/gems/pygments.rb&quot;&gt;many more&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Note that so far, only HTML, CSS and Javascript are styled out of the box. But everything&amp;#39;s ready for you to start styling your favorites languages: Python, Ruby, PHP and &lt;a href=&quot;http://rubygems.org/gems/pygments.rb&quot;&gt;many more&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. &lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll.&lt;/p&gt;
 
 &lt;p&gt;More on &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 </summary>
-      <id>http://ogaclejapan.github.io/2014/01/29/welcome-to-jekyll/</id>
+      <id>http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/29/welcome-to-jekyll/</id>
       <updated>2014-01-29T01:57:51+09:00</updated>
       <author>
         <name>ogaclejapan</name>
@@ -55,7 +55,7 @@
   
     <entry>
       <title>Styling guide for Hikari: best practices</title>
-      <link href="http://ogaclejapan.github.io/2014/01/28/hikari-styling-guide/" />
+      <link href="http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/28/hikari-styling-guide/" />
       <summary type="html">&lt;p&gt;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -123,7 +123,7 @@
 
 &lt;p&gt;But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.&lt;/p&gt;
 </summary>
-      <id>http://ogaclejapan.github.io/2014/01/28/hikari-styling-guide/</id>
+      <id>http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/28/hikari-styling-guide/</id>
       <updated>2014-01-28T01:57:51+09:00</updated>
       <author>
         <name>ogaclejapan</name>
@@ -132,7 +132,7 @@
   
     <entry>
       <title>Moving to Tokyo, yeeha!</title>
-      <link href="http://ogaclejapan.github.io/2014/01/23/moving-to-tokyo/" />
+      <link href="http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/23/moving-to-tokyo/" />
       <summary type="html">&lt;p&gt;&lt;img src=&quot;/hikari-for-Jekyll/assets/img/img1.jpg&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.&lt;/p&gt;
@@ -155,7 +155,7 @@
 
 &lt;p&gt;Travelling day in and day out. Doing business like this takes much more effort than doing your own business at home, and on top of that there&amp;#39;s the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so that you can never get to know anyone or become friendly with them. It can all go to Hell!&amp;quot;.&lt;/p&gt;
 </summary>
-      <id>http://ogaclejapan.github.io/2014/01/23/moving-to-tokyo/</id>
+      <id>http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/23/moving-to-tokyo/</id>
       <updated>2014-01-23T01:57:51+09:00</updated>
       <author>
         <name>ogaclejapan</name>
@@ -164,7 +164,7 @@
   
     <entry>
       <title>A week-end in the desert (shawarmas and belly dancers)</title>
-      <link href="http://ogaclejapan.github.io/2014/01/20/weekend-in-the-desert/" />
+      <link href="http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/20/weekend-in-the-desert/" />
       <summary type="html">&lt;p&gt;A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.&lt;/p&gt;
 
 &lt;p&gt;I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.&lt;/p&gt;
@@ -183,7 +183,7 @@
 
 &lt;p&gt;I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment.&lt;/p&gt;
 </summary>
-      <id>http://ogaclejapan.github.io/2014/01/20/weekend-in-the-desert/</id>
+      <id>http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/20/weekend-in-the-desert/</id>
       <updated>2014-01-20T01:57:51+09:00</updated>
       <author>
         <name>ogaclejapan</name>
@@ -192,7 +192,7 @@
   
     <entry>
       <title>So much to do, so little time</title>
-      <link href="http://ogaclejapan.github.io/2014/01/11/so-much-to-do-so-little-time/" />
+      <link href="http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/11/so-much-to-do-so-little-time/" />
       <summary type="html">&lt;p&gt;A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.&lt;/p&gt;
 
 &lt;p&gt;I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.&lt;/p&gt;
@@ -211,7 +211,7 @@
 
 &lt;p&gt;I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment.&lt;/p&gt;
 </summary>
-      <id>http://ogaclejapan.github.io/2014/01/11/so-much-to-do-so-little-time/</id>
+      <id>http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/11/so-much-to-do-so-little-time/</id>
       <updated>2014-01-11T01:57:51+09:00</updated>
       <author>
         <name>ogaclejapan</name>
@@ -220,7 +220,7 @@
   
     <entry>
       <title>Setting up Jekyll on Github Pages (is easier than you think)</title>
-      <link href="http://ogaclejapan.github.io/2014/01/09/setting-up-jekyll-on-github-pages/" />
+      <link href="http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/09/setting-up-jekyll-on-github-pages/" />
       <summary type="html">&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
@@ -228,7 +228,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 </summary>
-      <id>http://ogaclejapan.github.io/2014/01/09/setting-up-jekyll-on-github-pages/</id>
+      <id>http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/09/setting-up-jekyll-on-github-pages/</id>
       <updated>2014-01-09T01:57:51+09:00</updated>
       <author>
         <name>ogaclejapan</name>
@@ -237,7 +237,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
   
     <entry>
       <title>How Backbone.js changed my life</title>
-      <link href="http://ogaclejapan.github.io/2014/01/07/how-backbone-changed-my-life/" />
+      <link href="http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/07/how-backbone-changed-my-life/" />
       <summary type="html">&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
 
 &lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;
@@ -256,7 +256,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 &lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again. And if she hasn’t been rewritten, then they are still using her.&lt;/p&gt;
 </summary>
-      <id>http://ogaclejapan.github.io/2014/01/07/how-backbone-changed-my-life/</id>
+      <id>http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/07/how-backbone-changed-my-life/</id>
       <updated>2014-01-07T01:57:51+09:00</updated>
       <author>
         <name>ogaclejapan</name>
@@ -265,7 +265,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
   
     <entry>
       <title>Perception of design, a developer point of view</title>
-      <link href="http://ogaclejapan.github.io/2014/01/06/perception-of-design/" />
+      <link href="http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/06/perception-of-design/" />
       <summary type="html">&lt;p&gt;His boss would certainly come round with the doctor from the medical insurance company, accuse his parents of having a lazy son, and accept the doctor&amp;#39;s recommendation not to make any claim as the doctor believed that no-one was ever ill but that many were workshy.&lt;/p&gt;
 
 &lt;p&gt;And what&amp;#39;s more, would he have been entirely wrong in this case? Gregor did in fact, apart from excessive sleepiness after sleeping for so long, feel completely well and even felt much hungrier than usual.&lt;/p&gt;
@@ -282,7 +282,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 &lt;p&gt;It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.&lt;/p&gt;
 </summary>
-      <id>http://ogaclejapan.github.io/2014/01/06/perception-of-design/</id>
+      <id>http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/06/perception-of-design/</id>
       <updated>2014-01-06T01:57:51+09:00</updated>
       <author>
         <name>ogaclejapan</name>
@@ -291,7 +291,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
   
     <entry>
       <title>Going back on 2013; quite an incredible year</title>
-      <link href="http://ogaclejapan.github.io/2014/01/04/going-back-2013/" />
+      <link href="http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/04/going-back-2013/" />
       <summary type="html">&lt;p&gt;A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.&lt;/p&gt;
 
 &lt;p&gt;I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.&lt;/p&gt;
@@ -310,7 +310,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 &lt;p&gt;I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment.&lt;/p&gt;
 </summary>
-      <id>http://ogaclejapan.github.io/2014/01/04/going-back-2013/</id>
+      <id>http://ogaclejapan.github.io/hikari-for-Jekyll/2014/01/04/going-back-2013/</id>
       <updated>2014-01-04T01:57:51+09:00</updated>
       <author>
         <name>ogaclejapan</name>
