@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: 'Articles by tag: jekyll'
+title: 'Tags: Jekyll'
 tag: jekyll
 permalink: tags/jekyll/
 ---

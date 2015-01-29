@@ -2,6 +2,10 @@
     padding: $spacing-s $spacing-m;
     background: white;
     color: $text-hint;
+
+    a {
+      text-decoration: none;
+    }
 }
 
 .posts {

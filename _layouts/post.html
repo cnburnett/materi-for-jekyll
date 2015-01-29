@@ -16,6 +16,21 @@ is_blog: true
     <div itemprop="articleBody">
       {{ content }}
     </div>
+    {% if page.tags %}
+    <ul class="page-tags">
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.baseurl }}/tags/{{ tag }}">
+          {% if site.data.tags[tag] %}
+            {{ site.data.tags[tag].name }}
+          {% else %}
+            {{ tag }}
+          {% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
     {% if page.next %}
       <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" id="next">
         <span class="nav-title nav-title-next">newer</span> &rarr;
