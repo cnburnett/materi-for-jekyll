@@ -1,7 +1,7 @@
 .label {
     padding: $spacing-s $spacing-m;
     background: white;
-    color: $text-hint;
+    color: $text-secondary;
 
     a {
       text-decoration: none;
@@ -58,6 +58,15 @@
     a {
       color: $primary-dark;
       text-decoration: none;
+    }
+
+    .badge {
+      margin-left: $spacing-xs;
+      padding: $spacing-xs $spacing-xs;
+      border: 1px solid $primary;
+      border-radius: 2px;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;      
     }
 
   } // end li

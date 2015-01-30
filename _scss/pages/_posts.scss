@@ -103,23 +103,24 @@
 
   .page-tags {
     margin: 0 0 $spacing-s 0;
+    padding: $spacing-s 0;
 
     li {
       display: inline-block;
-      padding: $spacing-xs $spacing-s;
-      background: $accent;
-      border-radius: 2px;
-      -webkit-border-radius: 2px;
-      -moz-border-radius: 2px;
     }
 
     a {
-      color: $text-secondary;
+      padding: $spacing-s $spacing-s;
+      border: 1px solid $primary;
+      border-radius: 2px;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
       text-decoration: none;
 
       &:hover {
-        text-decoration: underline;
+        border: 1px solid $primary-dark;
       }
+
     }
   }
 
@@ -132,7 +133,6 @@
 #next {
   position: fixed;
   text-decoration: none;
-  //background: $accent;
   border: 1px solid $border-color;
   padding: $spacing-xs;
   line-height: 1;

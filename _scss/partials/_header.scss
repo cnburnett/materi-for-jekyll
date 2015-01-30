@@ -159,6 +159,7 @@ header {
     h1 {
       @extend h3;
       margin: 0;
+      color: $text-primary;
     }
     p {
       font-size: 90%;
