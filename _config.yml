@@ -2,7 +2,7 @@
 name: "materi (forked hikari)"
 
 # Description of your content (will only be used on Google Search)
-description: "materi forked the https://github.com/m3xm/hikari-for-Jekyll. Apply theme like a Material Design, responsive blog theme for Jekyll"
+description: "materi forked the hikari for Jekyll. Apply theme like a Material Design, responsive blog theme for Jekyll"
 
 # Your name. Will show in your footer + sidebar
 author: "ogaclejapan"
@@ -12,7 +12,7 @@ url: "http://ogaclejapan.github.io"
 baseurl: "/hikari-for-Jekyll"
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
-author-bio: "materi forked the 'hikari for Jekyll’. Apply theme like a Material Design and added some features. Thanks for coming :)"
+author-bio: "materi forked the https://github.com/m3xm/hikari-for-Jekyll. Apply theme like a Material Design and added some features. Thanks for coming :)"
 
 # Social Accounts (mine, as placeholders)
 
