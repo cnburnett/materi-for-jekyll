@@ -6,7 +6,7 @@
     a {
       text-decoration: none;
     }
-}
+} // end .label
 
 .posts {
   overflow: hidden;
@@ -61,12 +61,13 @@
     }
 
     .badge {
+      font-size: 75%;
       margin-left: $spacing-xs;
       padding: $spacing-xs $spacing-xs;
       border: 1px solid $primary;
       border-radius: 2px;
       -webkit-border-radius: 2px;
-      -moz-border-radius: 2px;      
+      -moz-border-radius: 2px;
     }
 
   } // end li

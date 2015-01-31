@@ -16,7 +16,7 @@ is_blog: true
     <div itemprop="articleBody">
       {{ content }}
     </div>
-    {% if page.tags %}
+    {% if page.tags.size > 0 %}
     <ul class="page-tags">
       {% for tag in page.tags %}
       <li>
@@ -39,5 +39,6 @@ is_blog: true
         &larr; <span class="nav-title nav-title-prev">older</span>
       </a>
     {% endif %}
+
   </article>
 </section>

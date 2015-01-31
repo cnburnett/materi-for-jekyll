@@ -90,3 +90,8 @@ a {
     color: darken($primary, 20%);
   }
 }
+
+hr {
+  margin: $spacing-xs 0;
+  border: 1px solid $accent;
+}
