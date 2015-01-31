@@ -20,13 +20,11 @@ is_blog: true
     <ul class="page-tags">
       {% for tag in page.tags %}
       <li>
-        <a href="{{ site.baseurl }}/tags/{{ tag }}">
-          {% if site.data.tags[tag] %}
-            {{ site.data.tags[tag].name }}
-          {% else %}
-            {{ tag }}
-          {% endif %}
-        </a>
+        {% if site.data.tags[tag] %}
+        <a href="{{ site.baseurl }}/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a>
+        {% else %}
+        <a href="javascript:void(0);" class="disabled">{{ tag }}</a>
+        {% endif %}
       </li>
       {% endfor %}
     </ul>
