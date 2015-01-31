@@ -1,15 +1,15 @@
 # Title of your blog; shows in the header
-name: "materi (forked hikari)"
+name: "materi for jekyll"
 
 # Description of your content (will only be used on Google Search)
-description: "materi forked the hikari for Jekyll. Apply theme like a Material Design, responsive blog theme for Jekyll"
+description: "materi forked the 'hikari for Jekyll'. Apply theme like a Material Design, responsive blog theme for Jekyll"
 
 # Your name. Will show in your footer + sidebar
 author: "ogaclejapan"
 lang: ja
 
 url: "http://ogaclejapan.github.io"
-baseurl: "/hikari-for-Jekyll"
+baseurl: "/materi-for-jekyll"
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
 author-bio: "materi forked the https://github.com/m3xm/hikari-for-Jekyll. Apply theme like a Material Design and added some features. Thanks for coming :)"
