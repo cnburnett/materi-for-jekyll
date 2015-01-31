@@ -1,6 +1,6 @@
 # materi for jekyll
 
-materi for jekyll forked the [hikari-for-Jekyll](https://github.com/m3xm/hikari-for-Jekyll).
+materi for jekyll forked the [hikari-for-Jekyll](https://github.com/m3xm/hikari-for-Jekyll)  
 Modified theme and Added some features:)
 
 * Apply theme like a Material Design
@@ -106,7 +106,7 @@ Change the two files.
 
 ### License
 
-Copyright (c) 2015 ogaclejapan
+Copyright (c) 2015 ogaclejapan  
 Copyright (c) 2014 Mathieu Mayer-Mazzoli
 
 Open source. [MIT license](http://opensource.org/licenses/MIT).
