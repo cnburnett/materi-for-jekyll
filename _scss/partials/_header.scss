@@ -52,7 +52,7 @@ header {
 
 .menu-icon {
   @extend %padding-large;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
