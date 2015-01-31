@@ -16,7 +16,7 @@
       {% endif %}
 
       <title>{% if page.title %} {{ page.title }} | {% endif %}{{ site.name }}</title>
-      <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+      {% include link_your_font.html %}
       <link rel="stylesheet" type="text/css" href="{{ site.baseurl| split: '/' | join:'/' }}/css/main.css" />
       <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
       <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
