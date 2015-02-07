@@ -43,13 +43,14 @@ h1 {
 }
 
 h2 {
-  font-size: 150%;
+  font-size: 140%;
   font-style: italic;
   margin: $spacing-s 0 $spacing-xs;
 }
 
 h3 {
   font-size: 120%;
+  font-weight: lighter;
   margin: $spacing-sm 0 $spacing-xs;
 }
 
@@ -85,11 +86,38 @@ ol li { list-style-type: decimal; }
 a {
   color: $primary;
   &:hover {
-    color: darken($primary, 20%);
+    color: $primary-dark;
   }
 }
 
 hr {
   margin: $spacing-xs 0;
   border: 1px solid $accent;
+}
+
+table {
+  margin: $spacing-xs 0;
+  padding: 0;
+
+  tr {
+    margin: 0;
+    padding: 0;
+  }
+
+  tr:first-child {
+    border-bottom: 1px solid $border-color;
+  }
+
+  tr th {
+    color: $text-secondary;
+    text-align: left;
+    padding: $spacing-xs $spacing-s;
+  }
+
+  tr td {
+    color: $text-secondary;
+    margin: 0;
+    padding: $spacing-xs $spacing-s;
+  }
+
 }

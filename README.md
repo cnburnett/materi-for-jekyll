@@ -1,20 +1,19 @@
-# materi for jekyll
+# Materi for jekyll
 
-materi for jekyll forked the [hikari-for-Jekyll](https://github.com/m3xm/hikari-for-Jekyll)  
+Materi for jekyll forked from [hikari-for-Jekyll](https://github.com/m3xm/hikari-for-Jekyll)  
 Modified theme and Added some features:)
 
-* Apply theme like a Material Design
-* Apply font of Google Noto (Noto Sans Japanese is default)
-* Generate tag page (No plugin)
-* Generate sitemap.xml
+* Apply theme like a Material Design Color
+* Apply font of Google Noto Sans and Ubuntu
+* Generate tag page and list of articles of each tag (No plugin)
+* Generate file not found page for 404
+* Generate sitemap.xml with robots.txt
+* Supports metadata in article header for Open Graph Protocol and Twitter Cards
+* Prepared a favicon by default
 
 [View demo](http://ogaclejapan.github.io/materi-for-jekyll)
 
-![preview](https://raw.githubusercontent.com/ogaclejapan/materi-for-jekyll/master/art/screenshot1.jpg)
-
-![preview](https://raw.githubusercontent.com/ogaclejapan/materi-for-jekyll/master/art/screenshot2.jpg)
-
-![preview](https://raw.githubusercontent.com/ogaclejapan/materi-for-jekyll/master/art/screenshot3.jpg)
+![preview](https://raw.githubusercontent.com/ogaclejapan/materi-for-jekyll/master/art/materi_for_jekyll_ss01.jpg)
 
 
 ### hikari for jekyll
