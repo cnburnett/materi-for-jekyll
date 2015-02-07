@@ -3,10 +3,16 @@
 
 	<url>
 	 	<loc>http://ogaclejapan.github.io/materi-for-jekyll/</loc>
-	 	<lastmod>2015-02-01</lastmod>
+	 	<lastmod>2015-02-07</lastmod>
 	 	<changefreq>weekly</changefreq>
 	</url>
 
+	
+	<url>
+	 	<loc>http://ogaclejapan.github.io/materi-for-jekyll/2015/02/08/welcome-to-jekyll/</loc>
+	 	<lastmod>2015-02-08</lastmod>
+	 	<changefreq>never</changefreq>
+	</url>
 	
 	<url>
 	 	<loc>http://ogaclejapan.github.io/materi-for-jekyll/2014/01/29/welcome-to-jekyll/</loc>
@@ -65,7 +71,7 @@
 
 	<url>
 		<loc>http://ogaclejapan.github.io/materi-for-jekyll/tags/</loc>
-		<lastmod>2015-02-01</lastmod>
+		<lastmod>2015-02-07</lastmod>
 		<changefreq>weekly</changefreq>
 	</url>
 
@@ -74,7 +80,7 @@
 	
 	<url>
 		<loc>http://ogaclejapan.github.io/materi-for-jekyll/tags/jekyll/</loc>
-		<lastmod>2015-02-01</lastmod>
+		<lastmod>2015-02-07</lastmod>
 		<changefreq>weekly</changefreq>
 	</url>
 	
@@ -83,7 +89,7 @@
 	
 	<url>
 		<loc>http://ogaclejapan.github.io/materi-for-jekyll/tags/material/</loc>
-		<lastmod>2015-02-01</lastmod>
+		<lastmod>2015-02-07</lastmod>
 		<changefreq>weekly</changefreq>
 	</url>
 	
