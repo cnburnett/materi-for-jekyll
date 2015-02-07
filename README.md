@@ -13,7 +13,7 @@ Modified theme and Added some features:)
 
 [View demo](http://ogaclejapan.github.io/materi-for-jekyll)
 
-![preview](https://raw.githubusercontent.com/ogaclejapan/materi-for-jekyll/master/art/materi_for_jekyll_ss01.jpg)
+![preview](https://raw.githubusercontent.com/ogaclejapan/materi-for-jekyll/master/art/materi_device_art.png)
 
 
 ### hikari for jekyll
