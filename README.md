@@ -5,7 +5,7 @@ Modified theme and Added some features:)
 
 * Apply theme like a Material Design Color
 * Apply font of Google Noto Sans and Ubuntu
-* Generate tag page and list of articles of each tag (No plugin)
+* Generate tag page and list of articles of each tag (without a plugin)
 * Generate file not found page for 404
 * Generate sitemap.xml with robots.txt
 * Supports metadata in article header for Open Graph Protocol and Twitter Cards
