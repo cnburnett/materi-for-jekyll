@@ -49,6 +49,13 @@ Modified theme and Added some features:)
         bundle exec jekyll serve --watch
 4. Visit the site at [http://localhost:4000](http://localhost:4000)
 
+_NOTE: If the `bundle install` fails with the following message, please try `xcode-select --install` _
+
+```
+An error occurred while installing nokogiri (1.6.6.2), and Bundler cannot continue.
+Make sure that `gem install nokogiri -v '1.6.6.2'` succeeds before bundling.
+
+```
 
 ### How to generate tag page
 
